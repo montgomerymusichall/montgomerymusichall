@@ -1,0 +1,191 @@
+/* General Styles */
+body {
+    background: url("../images/site-background.jpg") 50% 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: arial,sans-serif;
+    font-size: 12px;
+}
+
+p {
+    font-family: 'Reenie Beanie';
+    font-size: 24px;
+}
+
+.img-responsive {
+    display: inline-block;
+}
+
+h1 {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 57px;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 38px;
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+.width-1024 {
+    max-width: 1024px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    color: #FFFFFF;   
+}
+
+header h1 {
+    margin: 50px;
+}
+
+#container {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, .8);
+    outline: 1px solid #292929;
+}
+
+/* Top Navigation */
+.main-nav {
+    background-color: #000000;
+    outline: 1px solid #292929;
+    opacity: .8;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs > li {
+    border-right: 1px solid #292929;
+}
+
+.nav-tabs > li > a:hover {
+    background-color: #000000;
+    border-color: #000000;
+    color: #ff6633;
+}
+
+.nav-tabs > li > a {
+    border-radius: 0;
+    color: #FFFFFF;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 32px;
+}
+
+.nav-tabs > li > a.active {
+    color: #ff6633;
+}
+
+/* Home page */
+.home-section {
+    padding-top: 30px;
+    margin-top: 15px;
+    border-top: 1px solid #292929;
+}
+
+.home-section:first-child {
+    margin-top: 0;
+}
+
+.home-section h2 {
+    color: #974a16;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.home-section p {
+    color: #FFFFFF;
+    text-indent: 24px;
+    margin-bottom: 30px;
+    line-height: 33px;
+}
+
+section.main {
+    padding-bottom: 40px;
+}
+
+.info-text {
+    color: #FFFFFF;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    padding: 15px 0;
+}
+
+
+/* Google Map */
+#map {
+    display: inline-block;
+    width: 48.5%;
+    height: 400px;
+    margin-left: 15px;
+}
+
+#pano {
+    display: inline-block;
+    width: 48.5%;
+    height: 400px;
+}
+
+/*  Footer */
+footer {
+    margin-top: 40px;
+}
+
+/* MEDIA QUERIES GO BELOW HERE */
+
+/* LG styles */
+@media (min-width: 769px) {
+    
+}
+
+/* MD - SM - XS styles */
+@media (max-width: 768px) {
+    #map {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #pano {
+        width: 100%;
+    }
+    
+    .home-section {
+        text-align: center;
+    }
+    
+    .nav-tabs > li {
+        width: 100%;
+        text-align: center;
+    }
+    
+    header h1 {
+        text-align: center;
+    }
+}
+
+/* MD styles */
+@media (min-width: 481px) and (max-width: 768px) {
+    
+}
+
+/* SM - XS styles */
+@media (max-width: 480px) {
+    
+}
+
+/* XS styles */
+@media (max-width: 400px) {
+    
+}
