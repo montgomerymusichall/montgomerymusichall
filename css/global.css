@@ -113,6 +113,7 @@ header h1 {
 }
 
 section.main {
+    min-height: 800px;
     padding-bottom: 40px;
 }
 

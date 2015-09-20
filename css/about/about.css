@@ -1,0 +1,17 @@
+.about-section {
+    padding-top: 30px;
+    margin-top: 15px;
+    border-top: 1px solid #292929;
+    text-align: center;
+}
+
+.about-section:first-child {
+    margin-top: 0;
+}
+
+.about-section p {
+    color: #FFFFFF;
+    text-indent: 24px;
+    margin-bottom: 30px;
+    line-height: 33px;
+}

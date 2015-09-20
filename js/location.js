@@ -43,7 +43,7 @@
         infoWindow: null,
         locLatLng: {lat: 32.380599, lng: -86.305114},
         initialize: function() {
-            musichall.location.map = getMap(musichall.location.locLatLng);
+            /*musichall.location.map = getMap(musichall.location.locLatLng);
             musichall.location.panorama = getPanorama(musichall.location.locLatLng);
             
             musichall.location.map.setStreetView(musichall.location.panorama);
@@ -56,7 +56,7 @@
             var that = musichall.location;
             google.maps.event.addListener(musichall.location.marker, 'click', function () {
                 that.infoWindow.open(that.map, that.marker);
-            });  
+            });  */
         }
     };
     
