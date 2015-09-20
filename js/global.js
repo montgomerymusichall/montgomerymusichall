@@ -5,11 +5,16 @@
     }
     
     musichall.mainNav = {
-        $mainNavLinks : $('.main-nav li a'),
-        pageHash : window.location.hash.substring(1).length ? window.location.hash.substring(1) : 'home',
+        pagePathName : window.location.pathname,
         init: function () {
-            $('.main-nav li a').removeClass('active');
-            $('.main-nav li a[data-page=' + musichall.mainNav.pageHash + ']').addClass('active');
+            var $mainNavLinks = $('.main-nav li a');
+            
+            $mainNavLinks.removeClass('active');
+            if(musichall.mainNav.pagePathName != '/') {
+                $('.main-nav li a[href="' + musichall.mainNav.pagePathName + '"]').addClass('active');
+            } else {
+                $('.main-nav li:first-child a').addClass('active');
+            }
         }
     };
     
