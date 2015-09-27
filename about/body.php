@@ -1,5 +1,6 @@
 <div class="width-1024 container-fluid">
     <body class="about">
+        <?php include_once("../analyticstracking.php") ?>
         <section class="main row" id="container">
             <div class="about-section col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <img src="/images/about-musichall.jpg" alt="About" class="img-responsive">
